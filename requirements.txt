@@ -92,7 +92,7 @@ drawnow==0.72.0
 entrypoints==0.3
 feedgenerator==1.9
 ffmpeg==1.4
-Flask==0.12.2
+Flask==1.0
 Flask-Analytics==0.6.0
 Flask-Bootstrap==3.3.7.1
 Flask-Cors==3.0.6
