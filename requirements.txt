@@ -193,7 +193,7 @@ requests-toolbelt==0.8.0
 rsa==3.4.2
 ruamel.yaml==0.16.6
 ruamel.yaml.clib==0.2.0
-scapy==2.4.0
+scapy==2.4.1
 scikit-learn==0.22.1
 scipy==1.4.1
 seaborn==0.9.1
