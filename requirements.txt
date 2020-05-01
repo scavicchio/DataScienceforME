@@ -180,7 +180,7 @@ pyparsing==2.2.2
 pyrsistent==0.15.7
 pyserial==3.4
 python-dateutil==2.7.3
-python-engineio==2.2.0
+python-engineio==3.8.2.post1
 python-socketio==2.0.0
 python-utils==2.4.0
 pytz==2018.4
