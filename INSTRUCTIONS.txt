@@ -1,0 +1,51 @@
+how to work on this project: 
+
+To set up the directory (one time only)
+
+1) pull the repo from github
+
+git clone https://github.com/scavicchio/DataScienceforME.git
+
+2) move into the repository
+
+cd DataScienceforME
+
+This next part is what you should do every time you start working on this. 
+
+3) activate the virtual enviroment. What this is is a virtual computer enviroment specific to this project. It will allow you to easily install all the modules that are required for the project and save any new modules that you install while working on it.
+
+pip3 install virtualenv
+
+source venv/bin/activate
+
+4) install all the required modules 
+
+pip3 install -r requirements.txt
+
+5) actiavte the jupyter notebook
+
+jupyter notebook
+
+6) this will open your web browser, and you can work in it as if it is a regular notebook
+
+This last part you should do when you are DONE working on the project. 
+
+7) deactivate the jupyter notebook
+
+COMMAND+C
+
+8) save any new modules you installed into the requirements.txt
+
+pip3 freeze >> requirements.txt
+
+9) deactivate the virtual enviroment
+
+deactivate
+
+10) push the new code to githup
+
+git add --all
+git commit -m "Enter a message here saying what you did" 
+git push
+
+11) at this point, git will ask you to enter your username and password. Once you've done that you are good to go!
