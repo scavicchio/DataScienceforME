@@ -53,12 +53,14 @@ regex==2020.4.4
 scipy==1.4.1
 Send2Trash==1.5.0
 six==1.14.0
+style==1.1.6
 terminado==0.8.3
 testpath==0.4.4
 textblob==0.15.3
 tornado==6.0.4
 tqdm==4.46.0
 traitlets==4.3.3
+update==0.0.1
 wcwidth==0.1.9
 webencodings==0.5.1
 widgetsnbextension==3.5.1
