@@ -1,0 +1,18 @@
+From the raw tweet data:
+ - determine from the general and nyc popular tweet CSV how many tweets (% of total tweets per day) have a mention of "Coronavirus" "Covid-19" or similar 
+
+From the sentiment tweet data: 
+ - Determine the daily average "positivity" from each of the three CSV sets
+ - will want to see if we can find correlation there
+ - do the same for the "subjectivity" 
+ - "then create a new column that is y = someFunction(of subjectivity and positivity) - basically a combined score and see if we can improve the correlation that way
+ 
+From the COVID real data: 
+    - cases per day in nyc area and seperately in the general US
+    - find if there is correlation between the tweets and the data
+    
+From NYT API:
+- api is already set up but we need to transform it into a dataframe so it can be put into a NLP analysis
+- do NLP to determine the indicidual and daily "positivity" and "subjectivity" scores
+
+

@@ -3,3 +3,5 @@ tweet_sentiment.csv filter=lfs diff=lfs merge=lfs -text
 Kaggle/training.1600000.processed.noemoticon.csv filter=lfs diff=lfs merge=lfs -text
 Kaggle/trainingSet.csv filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
+*.sav filter=lfs diff=lfs merge=lfs -text
+NY[[:space:]]Times/*.sav filter=lfs diff=lfs merge=lfs -text
