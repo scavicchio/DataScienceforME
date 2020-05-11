@@ -1,0 +1,5 @@
+resources/split google news vec/GoogleNews-vectors-negative300.tar.gz
+resources/split google news vec/._GoogleNews-vectors-negative300.bin
+resources/split google news vec/GoogleNews-vectors-negative300.tar.gz
+cleanTrainingSet.csv
+resources/split google news vec/GoogleNews-vectors-negative300.tar.gz

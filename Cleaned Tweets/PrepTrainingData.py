@@ -172,13 +172,13 @@ def cleanTweetText(text):
 count = 0
 print("cleaning training set data")
 df['cleanText'] = df['cleanText'].apply(lambda x : cleanTweetText(x))
-df.to_csv('cleanTrainingSet'.csv)
+df.to_csv('cleanTrainingSet.csv')
 
 
 print("correcting Spelling")
-df_gen['spellCorrected'] = df_gen['cleanText'].astype(str)
+df['spellCorrected'] = df['cleanText'].astype(str)
 df['spellCorrected'] = df['spellCorrected'].apply(lambda x : correctSpelling2(x))
 
-df.to_csv('cleanTrainingSet'.csv)
+df.to_csv('cleanTrainingSet.csv')
 
 
